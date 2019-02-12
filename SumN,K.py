@@ -1,8 +1,6 @@
-N,K=map(int,input().split())
-i=1
-sum=0
-while i<=K:
-  sum+=i
-  print(i)
-  i=i+1
-print(sum)
+n,k=map(int,input().split())
+arr=list(map(int,input().split()))
+s=0
+for i in range (0,k):
+  s=s+arr[i]
+print (s)
